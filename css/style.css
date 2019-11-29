@@ -210,6 +210,10 @@ a {
   margin-top: -66.5px;
 }
 
+.landing-wrapper .video .btn-play:hover, .landing-wrapper .video .btn-play:focus {
+  opacity: 0.9;
+}
+
 .landing-wrapper .stream-info {
   font-family: PlumbCondensed;
   padding: 57px 115px 66px 115px;
