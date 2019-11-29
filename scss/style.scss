@@ -1,0 +1,96 @@
+@font-face {
+    font-family: PlumbCondensed; 
+    src: url(../fonts/Plumb.ttf);
+}
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #F7E7EA;
+    overflow-x: hidden;
+}
+* {
+    margin: 0;
+    padding: 0;
+    outline:none;
+    box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+h1 {
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+}
+h2 {
+    font-weight: 500;
+    font-size: 48px;
+    letter-spacing: 0.02em;
+    line-height: 56px;
+}
+p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #F7E7EA;
+}
+small {
+    font-size: 80%;
+}
+a, button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.green {
+    color: #83DCCF !important;
+}
+.btn-primary {
+    color: #22171D;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 21px 95px 21px 91px;
+    background: #83DCCF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 200px; 
+    border: none;
+}
+.btn-primary:hover, .btn-primary:focus {
+    background:#22171D;
+    color: #83DCCF;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.visible-xs, .visible-sm, .visible-md, .visible-lg {
+    display: none !important;
+}
+$colorText : #F7E7EA;
+$colorGreen : #83DCCF;
+
+@import "landing";
+@import "media";
