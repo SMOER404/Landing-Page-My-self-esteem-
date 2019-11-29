@@ -133,11 +133,11 @@ a {
   line-height: unset;
 }
 
-.landing-wrapper .navbar-wrapper .navbar-content .navbar-icon img {
+.landing-wrapper .navbar-wrapper .navbar-content .navbar-icon a {
   margin-right: 20px;
 }
 
-.landing-wrapper .navbar-wrapper .navbar-content .navbar-icon img:last-child {
+.landing-wrapper .navbar-wrapper .navbar-content .navbar-icon a:last-child {
   margin-right: 0px;
 }
 
